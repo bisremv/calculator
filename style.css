@@ -1,38 +1,111 @@
+body {
+  background-color: #575759;
+}
 .wrapper {
+  background-color: rgb(70, 71, 69);
+  border-radius: 15px;
   height: 700px;
   width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
-.history {
-  height: 150px;
+.display {
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
   width: 100%;
 }
-.answer{
-    height: 100px;
-    width:100%;
+.history {
+  border-radius: 15px;
+  background-color: rgb(50, 50, 51);
+  height: 149px;
+  width: 100%;
 }
-.experestions{
-    height: 445px;
-    width:100%;
-    display: flex;
-    }
-.cls-op{
-    
-    height: 100%;
-    width:75%;
+.answer {
+  border-radius: 15px;
+  background-color: rgb(40, 40, 41);
+  height: 100px;
+  width: 100%;
 }
-.controls{
-    height: 20%;
-    width:100%;
+.experestions {
+  background-color: rgb(70, 71, 69);
+  border-radius: 15px;
+  height: 445px;
+  width: 100%;
+  display: flex;
+}
+.cls-op {
+  border-radius: 15px;
+  width: 75%;
+}
+.controls {
+  color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  height: 17%;
+  width: 100%;
+}
+.operands {
+    margin-top:14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 80%;
+  width: 100%;
+}
+.operators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 24%;
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 85%;
+  width: 45%;
+}
 
+.sign {
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  height: 18%;
+  width: 90%;
 }
-.operands{
-    height: 80%;
-    width:100%;
+.white {
+    font-size: x-large;
+  color: aliceblue;
+  background-color: rgb(150, 150, 151);
 }
-.operators{
-    
-    height: 100%;
-    width:25%;
+.num {
+  border-radius: 11px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22%;
+  width: 30%;
+}
+button:hover {
+    height: 100px;
+    width: 120px;
+font-size:35px;
+background-color:rgb(130, 120, 101);
+}
+.col:hover{
+    height: 100px;
+    width: 160px;
 }
