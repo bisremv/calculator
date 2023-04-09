@@ -1,7 +1,38 @@
 .wrapper {
   height: 700px;
-  width: 560px;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
+.history {
+  height: 150px;
+  width: 100%;
+}
+.answer{
+    height: 100px;
+    width:100%;
+}
+.experestions{
+    height: 445px;
+    width:100%;
+    display: flex;
+    }
+.cls-op{
+    
+    height: 100%;
+    width:75%;
+}
+.controls{
+    height: 20%;
+    width:100%;
 
+}
+.operands{
+    height: 80%;
+    width:100%;
+}
+.operators{
+    
+    height: 100%;
+    width:25%;
+}
