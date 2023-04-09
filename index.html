@@ -12,41 +12,53 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="display">
-        <div class="history"></div>
-        <div class="answer"></div>
-      </div>
-
-      <div class="experestions">
-        <div class="cls-op">
-          <div class="controls">
-            <button class="col white">clear</button>
-            <button class="col white">back</button>
-          </div>
-          <div class="operands">
-            <button class="num white">1</button>
-            <button class="num white">2</button>
-            <button class="num white">3</button>
-            <button class="num white">4</button>
-            <button class="num white">5</button>
-            <button class="num white">6</button>
-            <button class="num white">7</button>
-            <button class="num white">8</button>
-            <button class="num white">9</button>
-            <button class="num white">0</button>
-            <button class="num white">.</button>
-            <div class="num white"></div>
+    <div class="border">
+      <div class="wrapper">
+        <div class="display">
+          <div class="history"></div>
+          <div class="answer">
+            <div id ="cac" class="caculate">8</div>
+            <div class="dis">8</div>
           </div>
         </div>
-        <div class="operators">
-          <button class="sign white">/</button>
-          <button class="sign white">*</button>
-          <button class="sign white">+</button>
-          <button class="sign white">-</button>
-          <button class="sign white">=</button>
+
+        <div class="experestions">
+          <div class="cls-op">
+            <div class="controls">
+              <button class="col white">clear</button>
+              <button class="col white">back</button>
+              <button class="col white">history</button>
+            </div>
+            <div class="operands">
+              <button class="btn num white">1</button>
+              <button class="btn num white">2</button>
+              <button class="btn num white">3</button>
+              <button class="btn num white">4</button>
+              <button class="btn num white">5</button>
+              <button class="btn num white">6</button>
+              <button class="btn num white">7</button>
+              <button class="btn num white">8</button>
+              <button class="btn num white">9</button>
+              <button class="btn num white">0</button>
+              <button class="btn num white">.</button>
+              <div class="n">
+                <button class="btn braket">(</button>
+                <button class="btn braket">)</button>
+              </div>
+            </div>
+          </div>
+          <div class="operators">
+            <button class="btn sign white">/</button>
+            <button class="btn sign white">*</button>
+            <button class="btn sign white">+</button>
+            <button class="btn sign white">-</button>
+            <button id="eql" class="sign white">=</button>
+          </div>
         </div>
       </div>
     </div>
   </body>
+  <footer>
+    <script src="script.js"></script>
+  </footer>
 </html>

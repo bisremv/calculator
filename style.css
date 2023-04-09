@@ -1,39 +1,79 @@
 body {
   background-color: #575759;
 }
+.border {
+  background-color: aliceblue;
+  border: 3px solid black;
+  border-radius: 25px;
+  height: 720px;
+  width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .wrapper {
-  background-color: rgb(70, 71, 69);
+  background-color: rgb(150, 150, 151);
+  border: 2px solid rgb(150, 150, 151);
   border-radius: 15px;
   height: 700px;
   width: 450px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
 }
 .display {
+  border: 2px solid rgb(32, 31, 31);
   display: flex;
+  border: 2px solid rgb(150, 150, 151);
   border-radius: 15px;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   height: 250px;
-  width: 100%;
+  width: 99%;
 }
 .history {
-  border-radius: 15px;
+  border-radius: 12px;
   background-color: rgb(50, 50, 51);
   height: 149px;
-  width: 100%;
+  width: 99%;
 }
 .answer {
-  border-radius: 15px;
-  background-color: rgb(40, 40, 41);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 12px;
   height: 100px;
+  width: 99%;
+  color: aliceblue;
+  font-size: x-large;
+  background-color: rgb(40, 40, 41);
+}
+.caculate {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 8px;
+  height: 40%;
+  width: 420px;
+}
+.dis {
   width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 8px;
+  height: 40%;
+  width: 420px;
 }
 .experestions {
   background-color: rgb(70, 71, 69);
-  border-radius: 15px;
+  border-radius: 12px;
+  border: 2px solid rgb(150, 150, 151);
   height: 445px;
-  width: 100%;
+  width: 99%;
   display: flex;
 }
 .cls-op {
@@ -51,7 +91,7 @@ body {
   width: 100%;
 }
 .operands {
-    margin-top:14px;
+  margin-top: 14px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -73,7 +113,7 @@ body {
   border: 1px solid black;
   border-radius: 15px;
   height: 85%;
-  width: 45%;
+  width: 31%;
 }
 
 .sign {
@@ -85,10 +125,29 @@ body {
   height: 18%;
   width: 90%;
 }
-.white {
-    font-size: x-large;
+.braket {
+  height: 100%;
+  width: 40%;
+  font-size: x-large;
   color: aliceblue;
+  border-radius: 11px;
+  border: 2px solid black;
   background-color: rgb(150, 150, 151);
+}
+.white {
+  font-size: x-large;
+  color: aliceblue;
+  
+  background-color: rgb(150, 150, 151);
+}
+.n {
+  display:
+   flex;
+  justify-content: space-around;
+  align-items: center;
+height: 22%;
+  width: 30%;
+padding: 1px;
 }
 .num {
   border-radius: 11px;
@@ -100,12 +159,11 @@ body {
   width: 30%;
 }
 button:hover {
-    height: 100px;
-    width: 120px;
-font-size:35px;
-background-color:rgb(130, 120, 101);
+  font-size: 35px;
+  color: black;
+  border: 2px solid white;
+  background-color: rgb(170, 170, 178);
 }
-.col:hover{
-    height: 100px;
-    width: 160px;
+.col:hover {
+  font-size: large;
 }
