@@ -34,12 +34,39 @@ body {
   justify-content: space-between;
   height: 250px;
   width: 99%;
+ 
+}
+.hisName{
+  height: 15%;
+  width: 20%;
+  display:flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.his{
+  height: 75%;
+  width: 95%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow:scroll;
+  text-align:  right;
+}
+.his::-webkit-scrollbar {
+  display: none;
 }
 .history {
   border-radius: 12px;
   background-color: rgb(50, 50, 51);
   height: 149px;
   width: 99%;
+  color: rgb(160, 161, 162);
+  font-size: small;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content:space-around;
 }
 .answer {
   display: flex;
@@ -49,10 +76,11 @@ body {
   border-radius: 12px;
   height: 100px;
   width: 99%;
-  color: aliceblue;
-  font-size: x-large;
-  background-color: rgb(40, 40, 41);
-}
+    background-color: rgb(40, 40, 41);
+    color: aliceblue;
+    font-size: x-large;
+  
+  }
 .caculate {
   display: flex;
   flex-direction: column-reverse;
@@ -89,6 +117,7 @@ body {
   border-radius: 15px;
   height: 17%;
   width: 100%;
+  padding-top:4px ;
 }
 .operands {
   margin-top: 14px;
@@ -110,10 +139,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 15px;
-  height: 85%;
-  width: 31%;
+  height: 95%;
+  width: 48%;
 }
 
 .sign {
